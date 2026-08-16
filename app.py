@@ -1,4 +1,17 @@
 import streamlit as st
+st.markdown(
+    """
+    <style>
+    .stApp {
+        background-color: #F5F7FA;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
+st.title("Optometry Pathology Guide")
+st.write("Search and learn about common eye conditions.")
 
 st.title("Optometry in One")
 
