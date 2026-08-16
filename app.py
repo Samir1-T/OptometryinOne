@@ -2,13 +2,66 @@ import streamlit as st
 st.markdown(
     """
     <style>
+
+    /* Whole app background */
     .stApp {
-        background-color: #E5E9EE;
+        background-color: #F5F7FA;
     }
+
+    /* Main page title */
+    h1 {
+        color: #16324F;
+        font-family: Arial, sans-serif;
+        font-weight: 700;
+    }
+
+    /* Section headings */
+    h2, h3, h4, h5 {
+        color: #2563A6;
+        font-family: Arial, sans-serif;
+        font-weight: 600;
+    }
+
+    /* Normal text and lists */
+    p, li {
+        color: #2D3748;
+        font-family: Arial, sans-serif;
+    }
+
+    /* Buttons */
+    .stButton > button {
+        background-color: #2563A6;
+        color: white;
+        border: 1px solid #2563A6;
+        border-radius: 10px;
+        font-weight: 600;
+        padding: 0.5rem 1rem;
+    }
+
+    /* Button hover */
+    .stButton > button:hover {
+        background-color: #16324F;
+        color: white;
+        border-color: #16324F;
+    }
+
+    /* Inputs / select boxes */
+    div[data-baseweb="select"] > div {
+        background-color: #FFFFFF;
+        border-color: #DDE3EA;
+        border-radius: 10px;
+    }
+
+    /* Images */
+    img {
+        border-radius: 12px;
+    }
+
     </style>
     """,
     unsafe_allow_html=True
 )
+
 
 st.title("Optometry Pathology Guide")
 st.write("Search and learn about common eye conditions.")
