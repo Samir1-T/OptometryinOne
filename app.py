@@ -74,6 +74,10 @@ elif pathology == "Cataracts":
     tab1, tab2, tab3(
         ["Overview","Symptoms", "Signs", "Management", "Images"]
     )
+    with tab 1:
+    st.subheader("Cataracts")
+    st.write (" A common eye condition in which the lens turns cloudy")
+
    
 
     st.subheader("Symptoms")
