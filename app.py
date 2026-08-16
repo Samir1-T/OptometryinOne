@@ -53,7 +53,7 @@ elif pathology == "Cataracts":
     st.write("- Reduced visual acuity")
     
     st.subheader("Management")
-    st.write(" ##### Referral is only required if vision is worse than 6/12 in the affected eye")
+    st.write(" ##### Referral is only required if; ")
     st.write (" 1. If vision is worse than 6/12 in the affected eye")
     st.write (" 2. Visual symptoms e.g Glare, loss of colour/contrast ,anisometropia")
     st.write (" 3. Affecting daily tasks/living independantly")
