@@ -15,9 +15,10 @@ if area == "Anterior Eye":
     pathology = st.selectbox(
         "Select pathology",
         [
+            "Dry eyes
             "Cataracts",
             "Keratoconus",
-            "Dry Eye",
+            "Conjunctivtis",
             "Uveitis"
         ]
     )
@@ -42,6 +43,13 @@ elif area == "Neuro-Ophthalmology":
             "NAION"
         ]
     )
+elif area == "Visual field defects"
+pathology = st.selectbox(
+    "Select pathology",
+    [
+        "Homonymous heminopia"
+    ]
+)
 if pathology == "Keratoconus":
 
     st.header("Keratoconus")
