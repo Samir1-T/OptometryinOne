@@ -44,7 +44,7 @@ elif area == "Neuro-Ophthalmology":
         ]
     )
 elif area == "Visual field defects":
-pathology = st.selectbox(
+    pathology = st.selectbox(
     "Select pathology",
     [
         "Homonymous heminopia"
