@@ -8,7 +8,7 @@ pathology = st.selectbox(
     "Choose a pathology:",
     [
         "Keratoconus",
-        "Cataract",
+        "Cataracts",
         "Anterior Uveitis",
         "AMD",
         "Diabetic Retinopathy"
@@ -52,7 +52,7 @@ elif pathology == "Cataracts":
     st.write("- Reduced red reflex")
     st.write("- Reduced visual acuity")
     
-    st.subheader (" Management")
+    st.subheader("Management")
     st.write(" ### Referral is only required if vision is worse than 6/12 in the affected eye")
     st.write (" 1. If vision is worse than 6/12 in the affected eye")
     st.write (" 2. Visual symptoms e.g Glare, loss of colour/contrast ,anisometropia")
