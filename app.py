@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.title("Optometry Pathology")
+st.title("Optometry in One")
 
 area = st.selectbox(
     "Select area",
@@ -71,6 +71,9 @@ if pathology == "Keratoconus":
 elif pathology == "Cataracts":
 
     st.header("Cataracts")
+    tab1, tab2, tab3(
+        ["Overview","Symptoms", "Signs", "Management", "Images"]
+    )
    
 
     st.subheader("Symptoms")
