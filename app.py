@@ -8,6 +8,7 @@ area = st.selectbox(
         "Anterior Eye",
         "Posterior Eye",
         "Neuro-Ophthalmology"
+        "Visual field defects"
     ]
 )
 
@@ -15,7 +16,7 @@ if area == "Anterior Eye":
     pathology = st.selectbox(
         "Select pathology",
         [
-            "Dry eyes"
+            "Dry eyes",
             "Cataracts",
             "Keratoconus",
             "Conjunctivtis",
