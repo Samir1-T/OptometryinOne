@@ -39,6 +39,7 @@ elif pathology == "Cataract":
         "images/Cataracts.jpg",
         caption=" Cataracts",
         width =500
+    )
 
     st.subheader("Symptoms")
     st.write("- Gradual reduction in vision")
