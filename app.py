@@ -43,7 +43,7 @@ elif area == "Neuro-Ophthalmology":
             "NAION"
         ]
     )
-elif area == "Visual field defects"
+elif area == "Visual field defects":
 pathology = st.selectbox(
     "Select pathology",
     [
