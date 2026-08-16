@@ -7,7 +7,7 @@ area = st.selectbox(
     [
         "Anterior Eye",
         "Posterior Eye",
-        "Neuro-Ophthalmology"
+        "Neuro-Ophthalmology",
         "Visual field defects"
     ]
 )
