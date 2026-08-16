@@ -35,17 +35,15 @@ if pathology == "Keratoconus":
 elif pathology == "Cataract":
 
     st.header("Cataract")
-    st.image(
-        "images/Cataracts.jpg",
-        caption=" Cataracts",
-        width =500
-    )
+   
 
     st.subheader("Symptoms")
     st.write("- Gradual reduction in vision")
     st.write("- Glare")
     st.write("- Reduced contrast")
     st.write("- Difficulty driving at night")
+    st.subheader ("Different types of cataracts")
+    st.write (- "Nuclear cataracts; Forms in the centre of the lens; The nucleaus. Usually turn yellow or brown depending of the severity")
 
     st.subheader("Clinical Signs")
     st.write("- Lens opacity")
