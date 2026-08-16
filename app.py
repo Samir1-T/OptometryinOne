@@ -32,9 +32,9 @@ if pathology == "Keratoconus":
     st.write("- Vogt striae")
     st.write("- Munson sign")
 
-elif pathology == "Cataract":
+elif pathology == "Cataracts":
 
-    st.header("Cataract")
+    st.header("Cataracts")
    
 
     st.subheader("Symptoms")
@@ -43,9 +43,17 @@ elif pathology == "Cataract":
     st.write("- Reduced contrast")
     st.write("- Difficulty driving at night")
     st.subheader("Different types of cataracts")
-    st.write( "- Nuclear cataracts; Forms in the centre of the lens; The nucleaus. Usually turn yellow or brown depending of the severity")
+    st.write( "- Nuclear cataracts: Forms at the centre of the lens; The nucleaus.")
+    st.write(" Cortical cataracts: Starts the edge of the lens, the cortex. Appear as wedge-shaped spokes")
+    st.write(" Posterior subcapsular: Form at the posterior lens")
 
     st.subheader("Clinical Signs")
     st.write("- Lens opacity")
     st.write("- Reduced red reflex")
     st.write("- Reduced visual acuity")
+
+st.subheader (" Management")
+st.write(" ### Referral is only required if vision is worse than 6/12 in the affected eye")
+st.write (" 1. If vision is worse than 6/12 in the affected eye")
+st.write (" 2. Visual symptoms e.g Glare, loss of colour/contrast ,anisometropia")
+st.write (" 3. Affecting daily tasks/living independantly")
