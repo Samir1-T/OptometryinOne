@@ -42,8 +42,8 @@ elif pathology == "Cataract":
     st.write("- Glare")
     st.write("- Reduced contrast")
     st.write("- Difficulty driving at night")
-    st.subheader ("Different types of cataracts")
-    st.write (- "Nuclear cataracts; Forms in the centre of the lens; The nucleaus. Usually turn yellow or brown depending of the severity")
+    st.subheader("Different types of cataracts")
+    st.write(- "Nuclear cataracts; Forms in the centre of the lens; The nucleaus. Usually turn yellow or brown depending of the severity")
 
     st.subheader("Clinical Signs")
     st.write("- Lens opacity")
