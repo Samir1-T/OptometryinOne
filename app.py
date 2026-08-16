@@ -63,10 +63,10 @@ st.markdown(
 )
 
 
-st.title("Optometry Pathology Guide")
-st.write("Search and learn about common eye conditions.")
+st.title("OptNexa")
+st.write("Learn. Recognise. Diagnose.")
 
-st.title("Optometry in One")
+st.title("Optometry knowledge, all in one place")
 
 area = st.selectbox(
     "Select area",
