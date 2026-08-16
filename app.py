@@ -1,20 +1,47 @@
 import streamlit as st
 
-st.title("Optometry Pathology Guide")
+st.title("Optometry Pathology")
 
-st.write("Search and learn about common eye conditions.")
-
-pathology = st.selectbox(
-    "Choose a pathology:",
+area = st.selectbox(
+    "Select area",
     [
-        "Keratoconus",
-        "Cataracts",
-        "Anterior Uveitis",
-        "AMD",
-        "Diabetic Retinopathy"
+        "Anterior Eye",
+        "Posterior Eye",
+        "Neuro-Ophthalmology"
     ]
 )
 
+if area == "Anterior Eye":
+    pathology = st.selectbox(
+        "Select pathology",
+        [
+            "Cataracts",
+            "Keratoconus",
+            "Dry Eye",
+            "Uveitis"
+        ]
+    )
+
+elif area == "Posterior Eye":
+    pathology = st.selectbox(
+        "Select pathology",
+        [
+            "AMD",
+            "Diabetic Retinopathy",
+            "Retinal Detachment",
+            "PVD"
+        ]
+    )
+
+elif area == "Neuro-Ophthalmology":
+    pathology = st.selectbox(
+        "Select pathology",
+        [
+            "Optic Neuritis",
+            "Papilloedema",
+            "NAION"
+        ]
+    )
 if pathology == "Keratoconus":
 
     st.header("Keratoconus")
