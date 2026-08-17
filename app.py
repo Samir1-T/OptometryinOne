@@ -64,9 +64,9 @@ st.markdown(
 
 
 st.title("OptNexa")
-st.write("Learn. Recognise. Diagnose.")
+st.write("Optometry knowledge all in one place")
 
-st.title("Optometry knowledge, all in one place")
+st.title("Learn. Recognise. Diagnose.")
 
 area = st.selectbox(
     "Select area",
