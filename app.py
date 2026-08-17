@@ -63,7 +63,7 @@ st.markdown(
 )
 
 
-st.title("OptNexa")
+st.title("OptoVault")
 st.caption("Optometry knowledge all in one place")
 
 st.subheader("Learn. Recognise. Diagnose.")
