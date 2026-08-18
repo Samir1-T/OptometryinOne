@@ -187,8 +187,8 @@ elif pathology == "Retinal Vein Occlusion":
     with tab2:
         st.subheader (" Symptoms")
         st.markdown (
-            "<u>CRVO</u>, 
-        unsafe_allow_html=True"
+            "<u>CRVO</u>", 
+        unsafe_allow_html=True
         )
         st.write (" - Sudden or gradual loss of vision")
         st.write (" - Painless")
