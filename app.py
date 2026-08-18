@@ -96,8 +96,8 @@ elif area == "Posterior Eye":
         [
             "AMD",
             "Diabetic Retinopathy",
-            "Vein Occlusion"
-            "Artery Occlusion"
+            "Vein Occlusion",
+            "Artery Occlusion",
             "Retinal Detachment",
             "PVD"
         ]
@@ -167,3 +167,27 @@ elif pathology == "Cataracts":
         st.write (" 1. If vision is worse than 6/12 in the affected eye")
         st.write (" 2. Visual symptoms e.g Glare, loss of colour/contrast ,anisometropia")
         st.write (" 3. Affecting daily tasks/living independantly")
+
+
+
+
+
+elif pathology == "Vein Occlusion":
+
+    st.header("Vein Occlusion")
+    tab1, tab2, tab3,tab4 = st.tabs(
+        ["Overview","Symptoms", "Signs", "Management"]
+    )
+    with tab1:
+        st.subheader ("Overview")
+        st.write (" Retinal vein occlusion is the complete or partial obstruction of the retinal vein at teh lamina cribrosa or the veins after")
+        st.write (" Retinal vein occlusion is usually split into two;")
+        st.write (" - CRVO: Which affects the central vein at the lamina cribrosa")
+        st.write (" BRVO: which affects the vein after the lamina cribrosa")
+        
+
+
+
+
+
+
