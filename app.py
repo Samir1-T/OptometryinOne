@@ -96,8 +96,8 @@ elif area == "Posterior Eye":
         [
             "AMD",
             "Diabetic Retinopathy",
-            "Vein Occlusion",
-            "Artery Occlusion",
+            "Retinal Vein Occlusion",
+            "Retinal Artery Occlusion",
             "Retinal Detachment",
             "PVD"
         ]
@@ -172,7 +172,7 @@ elif pathology == "Cataracts":
 
 
 
-elif pathology == "Vein Occlusion":
+elif pathology == "Retinal Vein Occlusion":
 
     st.header("Vein Occlusion")
     tab1, tab2, tab3,tab4 = st.tabs(
@@ -180,10 +180,19 @@ elif pathology == "Vein Occlusion":
     )
     with tab1:
         st.subheader ("Overview")
-        st.write (" Retinal vein occlusion is the complete or partial obstruction of the retinal vein at teh lamina cribrosa or the veins after")
+        st.write (" Retinal vein occlusion is the complete or partial obstruction of the retinal vein at the lamina cribrosa or the veins after")
         st.write (" Retinal vein occlusion is usually split into two;")
-        st.write (" - CRVO: Which affects the central vein at the lamina cribrosa")
-        st.write (" BRVO: which affects the vein after the lamina cribrosa")
+        st.write (" - Central Retinal Vein Occlusion (CRVO): Which affects the central vein at the lamina cribrosa")
+        st.write (" - Branch Retinal Vein Occlusion (BRVO): which affects the vein after the lamina cribrosa")
+    with tab2:
+        st.subheader (" Symptoms")
+        st.write ("##CRVO")
+        st.write (" - Sudden or gradual loss of vision")
+        st.write (" - Painless")
+        st.write ("##BRVO")
+        ST.write (" - Symptoms vary depending on severity and location e.g asymptomatic if BRVO occurs at the periphery")
+        
+        
         
 
 
