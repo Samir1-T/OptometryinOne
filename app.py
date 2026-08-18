@@ -200,6 +200,7 @@ elif pathology == "Retinal Vein Occlusion":
         with tab3:
             st.subheader("Signs")
             st.markdown ("<u>CRVO</u>", unsafe_allow_html=True) 
+            st.write (
         
         
 
