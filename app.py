@@ -192,8 +192,9 @@ elif pathology == "Retinal Vein Occlusion":
         )
         st.write (" - Sudden or gradual loss of vision")
         st.write (" - Painless")
-        st.markdown ("<u>BRVO </u",
-                    unsafe_allow+_tml=True
+        st.markdown (
+            "<u>BRVO</u",
+            unsafe_allow_html=True
                     )
         st.write (" - Symptoms vary depending on severity and location e.g asymptomatic if BRVO occurs at the periphery")
         
