@@ -186,7 +186,7 @@ elif pathology == "Retinal Vein Occlusion":
         st.write (" - Branch Retinal Vein Occlusion (BRVO): which affects the vein after the lamina cribrosa")
     with tab2:
         st.subheader (" Symptoms")
-        st.write ("##CRVO")
+        st.markdown ("CRVO")
         st.write (" - Sudden or gradual loss of vision")
         st.write (" - Painless")
         st.write ("##BRVO")
