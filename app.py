@@ -96,6 +96,8 @@ elif area == "Posterior Eye":
         [
             "AMD",
             "Diabetic Retinopathy",
+            "Vein Occlusion"
+            "Artery Occlusion"
             "Retinal Detachment",
             "PVD"
         ]
