@@ -197,7 +197,9 @@ elif pathology == "Retinal Vein Occlusion":
             unsafe_allow_html=True
                     )
         st.write (" - Symptoms vary depending on severity and location e.g asymptomatic if BRVO occurs at the periphery")
-        
+        with tab3:
+            st.subheader("Signs")
+            st.markdown ("<u>CRVO</u>", unsafe_allow_html=True) 
         
         
 
